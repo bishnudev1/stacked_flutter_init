@@ -7,6 +7,7 @@ class AppView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Stacked Flutter State Management',
       home: Scaffold(
         appBar: AppBar(

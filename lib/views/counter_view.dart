@@ -20,4 +20,7 @@ class CounterView extends ViewModelBuilderWidget<CounterModel> {
   @override
   CounterModel viewModelBuilder(BuildContext context) => CounterModel();
 
+  @override 
+  bool get reactive => true;
+
 }
